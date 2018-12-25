@@ -5,6 +5,8 @@ import Navbar from "./components/navbar";
 import Home from "./components/home";
 import Invited from "./components/invited";
 import Error from "./components/error";
+import Footer from "./components/footer";
+
 
 class App extends Component {
   render() {
@@ -17,6 +19,7 @@ class App extends Component {
             <Route path="/invited" component={Invited} />
             <Route component={Error} />
           </Switch>
+          <Footer />
         </div>
       </BrowserRouter>
     );
