@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-const Home = () => {
-    return ( <h1>Home page</h1> );
-}
+const Home = () => (
+    <h2 class="mt-0">3rd Experimental Pragmatics in Italy Conference</h2> 
+);
  
 export default Home;
