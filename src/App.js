@@ -7,7 +7,6 @@ import Invited from "./components/invited";
 import Error from "./components/error";
 import Footer from "./components/footer";
 
-
 class App extends Component {
   render() {
     return (

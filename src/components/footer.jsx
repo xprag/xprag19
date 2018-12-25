@@ -4,6 +4,7 @@ import univ from "../images/universita-cagliari.jpg";
 
 const Footer = () => (
   <div className="container">
+  <hr />
     <div className="row mb-2">
       <div className="col-sm">
         <div className="media">
