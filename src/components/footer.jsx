@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import fondazione from "../images/fondazione-sardegna.jpg";
 import univ from "../images/universita-cagliari.jpg";
 
@@ -11,7 +11,7 @@ const Footer = () => (
           <img
             className="mr-3"
             src={fondazione}
-            alt="Generic placeholder image"
+            alt=""
           />
           <div className="media-body">
             <h2 className="mt-4">
@@ -35,7 +35,7 @@ const Footer = () => (
               Pedagogia, Psicologia, Filosofia
             </p>
           </div>
-          <img className="mr-5" src={univ} alt="Generic placeholder image" />
+          <img className="mr-5" src={univ} alt="" />
         </div>
       </div>
     </div>
