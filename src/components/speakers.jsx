@@ -22,11 +22,28 @@ class Speakers extends Component {
         },
         {
           id: 2,
-          name: "Pickering",
+          name: "Courtenay Norbury",
+          from: "University College London",
+          img: norbury,
+          ref: "https://www.ucl.ac.uk/pals/people/courtenay-norbury",
+          talk:
+            "Connections between pragmatics and structural language skills in typical and atypical development"
+        },
+        {
+          id: 3,
+          name: "Martin Pickering",
           from: "University of Edinburgh",
-          img: gibbs,
-          ref: "https://en.wikipedia.org/asdsasa",
-          talk: "Title asda trtr"
+          img: pickering,
+          ref: "https://www.ed.ac.uk/profile/martin-pickering",
+          talk: "Understanding dialogue: Language use and social interaction"
+        },
+        {
+          id: 4,
+          name: "Deirdre Wilson",
+          from: "University College London & CSMN, Oslo",
+          img: wilson,
+          ref: "https://www.researchgate.net/profile/Deirdre_Wilson",
+          talk: "Understanding Metonymy"
         }
       ]
     };
