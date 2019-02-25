@@ -5,6 +5,8 @@ import Navbar from "./components/navbar";
 import Home from "./components/home";
 import Invited from "./components/invited";
 import Call from "./components/call";
+import Award from "./components/award";
+import GenderPolicy from "./components/gender-policy";
 import Error from "./components/error";
 import Footer from "./components/footer";
 
@@ -16,8 +18,10 @@ class App extends Component {
           <Navbar />
           <Switch>
             <Route path="/" component={Home} exact />
-            <Route path="/invited" component={Invited} />
-            <Route path="/call" component={Call} />
+            <Route path="/invited-speakers" component={Invited} />
+            <Route path="/call-for-papers" component={Call} />
+            <Route path="/award" component={Award} />
+            <Route path="/gender-policy" component={GenderPolicy} />
             <Route component={Error} />
           </Switch>
           <Footer />

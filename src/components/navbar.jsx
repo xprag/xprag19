@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import cagliari from '../images/cagliari.jpg'
+import cagliari from "../images/cagliari.jpg";
 
 const Navbar = () => (
   <div>
@@ -14,12 +14,12 @@ const Navbar = () => (
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="/invited">
+            <NavLink className="nav-link" to="/invited-speakers">
               INVITED SPEAKERS
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="/call">
+            <NavLink className="nav-link" to="/call-for-papers">
               CALL FOR PAPERS
             </NavLink>
           </li>
@@ -44,7 +44,7 @@ const Navbar = () => (
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="/gender">
+            <NavLink className="nav-link" to="/gender-policy">
               GENDER POLICY
             </NavLink>
           </li>
