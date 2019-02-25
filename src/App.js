@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Home from "./components/home";
 import Invited from "./components/invited";
+import Call from "./components/call";
 import Error from "./components/error";
 import Footer from "./components/footer";
 
@@ -16,6 +17,7 @@ class App extends Component {
           <Switch>
             <Route path="/" component={Home} exact />
             <Route path="/invited" component={Invited} />
+            <Route path="/call" component={Call} />
             <Route component={Error} />
           </Switch>
           <Footer />
