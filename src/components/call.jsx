@@ -79,7 +79,11 @@ const Call = () => (
     </p>
     <p>
       The number of submissions is limited to maximally one as first (or sole)
-      author (plus joint submissions where the author is not first author).
+      author (plus joint submissions where the author is not first author).{" "}
+      <b>
+        ***NEW*** Pre-registration posters are not counted in the one submission
+        as first or sole author limit.
+      </b>
     </p>
     <p>
       Abstract submission deadline: <strong>March 31, 2019</strong>, by midnight
