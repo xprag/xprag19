@@ -35,7 +35,6 @@ const Call = () => (
       and{" "}
       <a
         className="text-warning"
-        target="_"
         target="_3"
         href="https://sites.google.com/a/sheffield.ac.uk/clshef2019/call-for-papers?authuser=0"
       >

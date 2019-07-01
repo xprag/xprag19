@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import cagliari from "../images/cagliari.jpg";
-import { withRouter } from "react-router";
 
 const Navbar = props => {
   const { location } = props;

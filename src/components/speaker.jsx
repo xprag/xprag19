@@ -1,8 +1,4 @@
 import React, { Component } from "react";
-import wilson from "../images/wilson.jpg";
-import gibbs from "../images/gibbs.jpg";
-import norbury from "../images/norbury.png";
-import pickering from "../images/pickering.png";
 
 class Speaker extends Component {
   constructor(props) {
