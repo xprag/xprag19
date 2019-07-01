@@ -26,15 +26,16 @@ const Venue = () => (
     </p>
     <hr />
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md">
+    <div className="container">
+      <div className="row">
+        <div className="col-md">
           {" "}
           <img src={citadelOfMuseums} alt="citadelOfMuseums" width="500px" />
         </div>
-        <div class="col-md">
+        <div className="col-md">
           {" "}
           <iframe
+            title="citadelOfMuseums"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3090.929322658442!2d9.11439651502039!3d39.22177087952182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12e7340e187c1fbf%3A0x701e830190acca93!2sPiazza+Arsenale%2C+1%2C+09123+Cagliari+CA%2C+Italy!5e0!3m2!1sen!2sfr!4v1561992774369!5m2!1sen!2sfr"
             width="500"
             height="350"
