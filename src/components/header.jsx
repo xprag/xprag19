@@ -12,9 +12,7 @@ const Header = props => {
             <NavItem to="/">HOME</NavItem>
             <NavItem to="/invited-speakers">INVITED SPEAKERS</NavItem>
             <NavItem to="/call-for-papers">CALL FOR PAPERS</NavItem>
-            <NavItem to="/program" isDisabled="1">
-              PROGRAM
-            </NavItem>
+            <NavItem to="/program">PROGRAM</NavItem>
             <NavItem to="/award">AWARD</NavItem>
             <NavItem to="/venue">VENUE</NavItem>
             <NavItem to="#" isDisabled="1">
