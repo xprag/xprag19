@@ -3,7 +3,7 @@ import "./App.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Home from "./components/home";
-import Invited from "./components/invited";
+import Speakers from "./components/speakers";
 import Call from "./components/call";
 import Award from "./components/award";
 import GenderPolicy from "./components/gender-policy";
@@ -18,7 +18,7 @@ class App extends Component {
           <Navbar />
           <Switch>
             <Route path="/" component={Home} exact />
-            <Route path="/invited-speakers" component={Invited} />
+            <Route path="/invited-speakers" component={Speakers} />
             <Route path="/call-for-papers" component={Call} />
             <Route path="/award" component={Award} />
             <Route path="/gender-policy" component={GenderPolicy} />
