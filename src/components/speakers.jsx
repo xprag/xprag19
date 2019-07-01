@@ -50,10 +50,10 @@ class Speakers extends Component {
   }
   render() {
     return (
-      <main class="container">
-        <h2 class="mb-4">Invited Speakers</h2>
+      <main className="container">
+        <h2 className="mb-4">Invited Speakers</h2>
 
-        <ul class="list-unstyled mt-5">
+        <ul className="list-unstyled mt-5">
           {this.state.speakers.map(speaker => (
             <Speaker key={speaker.id} value={speaker} />
           ))}

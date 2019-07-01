@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Navbar from "./components/navbar";
+import Header from "./components/header";
 import Home from "./components/home";
 import Speakers from "./components/speakers";
 import Call from "./components/call";
@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="container">
-          <Navbar />
+          <Header />
           <Switch>
             <Route path="/" component={Home} exact />
             <Route path="/invited-speakers" component={Speakers} />
