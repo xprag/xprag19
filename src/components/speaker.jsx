@@ -10,7 +10,6 @@ class Speaker extends Component {
     this.state = { name: this.props.value };
   }
   render() {
-    console.log(this.props);
     const { name, from, img, ref, talk } = this.props.value;
     return (
       <li className="media">
