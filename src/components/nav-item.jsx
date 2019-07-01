@@ -4,16 +4,15 @@ import { NavLink } from "react-router-dom";
 
 class NavItem extends React.Component {
   render() {
-    console.log(this.context.router.route.location.pathname, this.props.to);
-    var isActive =
-      this.context.router.route.location.pathname === this.props.to;
+    const { to, isDisabled, children } = this.props;
+    var isActive = this.context.router.route.location.pathname === to;
     var liClassName = isActive ? "nav-item active" : "nav-item";
-    var nlClassName = this.props.isDisabled ? "nav-link disabled" : "nav-link";
+    var nlClassName = isDisabled ? "nav-link disabled" : "nav-link";
 
     return (
-      <li className={liClassName} {...this.props}>
-        <NavLink className={nlClassName} to={this.props.to}>
-          {this.props.children}
+      <li className={liClassName}>
+        <NavLink className={nlClassName} to={to}>
+          {children}
         </NavLink>
       </li>
     );
