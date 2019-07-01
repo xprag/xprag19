@@ -25,7 +25,10 @@ const Home = () => (
     <h4>Invited Speakers</h4>
     <p />
     <ul className="list-unstyled">
-      <li>Raymond Gibbs (University of California, Santa Cruz)</li>
+      <li>
+        Raymond Gibbs (Cognitive Scientist and former Distinguished Professor of
+        Psychology, University of California, Santa Cruz)
+      </li>
       <li>Courtenay Norbury (University College London)</li>
       <li>Martin Pickering (University of Edinburgh)</li>
       <li>Deirdre Wilson (University College London) </li>
