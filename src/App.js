@@ -11,6 +11,7 @@ import Program from "./components/program";
 import Venue from "./components/venue";
 import Error from "./components/error";
 import Footer from "./components/footer";
+import FurtherInfo from "./components/further-info";
 
 class App extends Component {
   render() {
@@ -26,6 +27,7 @@ class App extends Component {
             <Route path="/gender-policy" component={GenderPolicy} />
             <Route path="/program" component={Program} />
             <Route path="/venue" component={Venue} />
+            <Route path="/further-info" component={FurtherInfo} />
             <Route component={Error} />
           </Switch>
           <Footer />

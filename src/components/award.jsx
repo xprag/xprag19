@@ -2,7 +2,7 @@ import React from "react";
 
 const Award = () => (
   <main className="container">
-    <h2 class="mb-4">Award</h2>
+    <h2 className="mb-4">Award</h2>
     <p>
       XPRAG.it Young Researcher Award is a monetary prize, granted by the
       Organizing Committee to the best presentation from a PhD or early post-doc

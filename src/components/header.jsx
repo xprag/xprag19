@@ -15,14 +15,15 @@ const Header = props => {
             <NavItem to="/program">PROGRAM</NavItem>
             <NavItem to="/award">AWARD</NavItem>
             <NavItem to="/venue">VENUE</NavItem>
-            <NavItem to="#" isDisabled="1">
-              HOW TO GET THERE
-            </NavItem>
+            <NavItem to="/further-info">FURTHER INFO</NavItem>
             <NavItem to="/gender-policy">GENDER POLICY</NavItem>
           </ul>
         </div>
       </nav>
-      <img src={cagliari} className="img-fluid" alt="Cagliari" />
+      <div className="header-container">
+        <img src={cagliari} className="img-fluid" alt="Cagliari" />
+        <div className="bottom-right">September 19-20, 2019 </div>
+      </div>
     </div>
   );
 };
