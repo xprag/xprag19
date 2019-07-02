@@ -12,7 +12,7 @@ const FurtherInfo = () => (
             Here below you can find a list of B&amp;B and hotels located in
             Cagliari.
           </p>
-          <h6>Bad &amp; Breakfast</h6>
+          <h6>Bed &amp; Breakfast</h6>
           <ul>
             <li>Centro storico Via Manno </li>
             <li>Il Girasole </li>
