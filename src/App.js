@@ -12,7 +12,6 @@ import Venue from "./components/venue";
 import Error from "./components/error";
 import Footer from "./components/footer";
 import FurtherInfo from "./components/further-info";
-
 class App extends Component {
   render() {
     return (
