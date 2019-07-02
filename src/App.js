@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Router, Route, Switch } from "react-router-dom";
 import Header from "./components/header";
 import Home from "./components/home";
 import Speakers from "./components/speakers";
@@ -12,11 +12,20 @@ import Venue from "./components/venue";
 import Error from "./components/error";
 import Footer from "./components/footer";
 import FurtherInfo from "./components/further-info";
+import ReactGA from "react-ga";
+import createHistory from "history/createBrowserHistory";
+
+const history = createHistory();
+
+ReactGA.initialize("UA-143172373-1");
+history.listen((location, action) => {
+  ReactGA.pageview(location.pathname + location.search);
+});
 
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <Router history={history}>
         <div className="container">
           <Header />
           <Switch>
@@ -32,7 +41,7 @@ class App extends Component {
           </Switch>
           <Footer />
         </div>
-      </BrowserRouter>
+      </Router>
     );
   }
 }
