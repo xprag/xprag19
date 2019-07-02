@@ -73,3 +73,6 @@ ul > li {
     opacity: 0.3;
     font-style: italic;
 }
+ul li {
+    margin: 0;
+}
