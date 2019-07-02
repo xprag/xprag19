@@ -1,7 +1,11 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 const Home = () => (
   <main className="container">
+    <Helmet>
+      <title>Xprag</title>
+    </Helmet>
     <h2 className="mt-0">3rd Experimental Pragmatics in Italy Conference</h2>
     <h4 className="xprag">
       September 19-20, 2019 - University of Cagliari - Department of Education,
