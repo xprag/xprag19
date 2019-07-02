@@ -15,8 +15,8 @@ const Header = props => {
             <NavItem to="/program">PROGRAM</NavItem>
             <NavItem to="/award">AWARD</NavItem>
             <NavItem to="/venue">VENUE</NavItem>
-            <NavItem to="#" isDisabled="1">
-              HOW TO GET THERE
+            <NavItem to="/further-info" isDisabled="1">
+              FURTHER INFO
             </NavItem>
             <NavItem to="/gender-policy">GENDER POLICY</NavItem>
           </ul>
