@@ -44,7 +44,18 @@ const FurtherInfo = () => (
         <div className="col-sm">
           <h3>Where to eat</h3>
           <p>
-            Here below you can find a list of restaurants located in Cagliari.
+            Here below you can find a list of café/restaurants located near the
+            conference venue.
+          </p>
+          <p>
+            <li>L'osteria di Castello, Via Lamarmora 62 </li>
+            <li>Pablo Caffè, Via Martini 20</li>
+            <li>Caffè Libarium Nostrum, Via Santa Croce 33</li>
+            <li>Pani e Casu, Via Santa Croce 51 </li>
+            <li>Luchia di Claudio Ara, Viale Buon Cammino 5 </li>
+            <li>4 Mori, Via Corte D'Appello 37 </li>
+            <li>Milestone Pizzorante, Via Corte D'Appello 33</li>
+            <li>Caffè De Candia, Via Mario de Candia 5</li>
           </p>
         </div>
       </div>
