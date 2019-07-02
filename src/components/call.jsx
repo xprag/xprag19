@@ -7,12 +7,13 @@ const Call = () => (
       We invite submissions of abstracts in any area of experimental pragmatics,
       including neuropragmatics, developmental pragmatics, and clinical
       pragmatics. Three types of submission are accepted:
-      <ul>
-        <li>oral presentation</li>
-        <li>poster presentation</li>
-        <li>pre-registration poster</li>
-      </ul>
     </p>
+    <ul>
+      <li>oral presentation</li>
+      <li>poster presentation</li>
+      <li>pre-registration poster</li>
+    </ul>
+
     <h4>A novel submission type</h4>
     <p>
       Pre-registration poster is a novel type of submission, offering the
@@ -60,18 +61,18 @@ const Call = () => (
     <p>
       Abstracts for pre-registration posters must respect the same word limits
       and should include the following sections:
-      <ul>
-        <li>
-          Introduction (background, reasons for carrying out the study,
-          hypotheses…);
-        </li>
-        <li>Methods (how the hypothesis will be tested);</li>
-        <li>
-          Approach for statistical analysis (what statistical tests will be
-          used).
-        </li>
-      </ul>
     </p>
+    <ul>
+      <li>
+        Introduction (background, reasons for carrying out the study,
+        hypotheses…);
+      </li>
+      <li>Methods (how the hypothesis will be tested);</li>
+      <li>
+        Approach for statistical analysis (what statistical tests will be used).
+      </li>
+    </ul>
+
     <p>
       Accepted pre-registration posters should include the sections above, plus
       any data collected since submitting the abstract, and any initial
@@ -94,7 +95,7 @@ const Call = () => (
     <p>
       Abstracts can be submitted through EasyChair at the following link:{" "}
       <a
-        class="text-warning"
+        className="text-warning"
         target="_1"
         href="https://easychair.org/conferences/?conf=xpragit2019"
       >

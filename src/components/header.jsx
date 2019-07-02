@@ -22,7 +22,7 @@ const Header = props => {
       </nav>
       <div className="header-container">
         <img src={cagliari} className="img-fluid" alt="Cagliari" />
-        <div class="bottom-right">September 19-20, 2019 </div>
+        <div className="bottom-right">September 19-20, 2019 </div>
       </div>
     </div>
   );
