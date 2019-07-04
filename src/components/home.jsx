@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet";
 const Home = () => (
   <main className="container">
     <Helmet>
-      <title>Xprag</title>
+      <title>XPRAG.it 2019</title>
     </Helmet>
     <h2 className="mt-0">3rd Experimental Pragmatics in Italy Conference</h2>
     <h4 className="xprag">
