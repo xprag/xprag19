@@ -47,11 +47,14 @@ const Venue = () => (
     <br />
     <h4>How to get there</h4>
     <p>
-      Cagliari-Elmas airport is easily reached by plane (www.sogaer.it/en). It
-      is connected by daily flights to most of the principal cities of mainland
-      Italy and Europe and by several daily flights to Rome and Milan. The
-      Cagliari-Elmas airport is about 8 km from Cagliari city centre. There are
-      several modes of transport available to travel from the airport to the
+      Cagliari-Elmas airport is easily reached by plane (
+      <a className="text-warning" href="http://www.sogaer.it/en">
+        www.sogaer.it/en
+      </a>
+      ). It is connected by daily flights to most of the principal cities of
+      mainland Italy and Europe and by several daily flights to Rome and Milan.
+      The Cagliari-Elmas airport is about 8 km from Cagliari city centre. There
+      are several modes of transport available to travel from the airport to the
       city centre and viceversa. Trains offer the cheapest option of public
       transport.
     </p>

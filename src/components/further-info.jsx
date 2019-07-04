@@ -21,7 +21,7 @@ const FurtherInfo = () => (
             <li>Bianca Dimora</li>
             <li>Cerdena Rooms</li>
             <li>Villa Cao</li>
-            <li>Elisabeth</li>
+            <li>Elizabeth B&amp;B</li>
             <li>Regina Elena </li>
             <li>L’Antica Torre</li>
           </ul>
