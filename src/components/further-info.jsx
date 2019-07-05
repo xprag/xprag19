@@ -14,7 +14,7 @@ const FurtherInfo = () => (
           </p>
           <h6>Bed &amp; Breakfast</h6>
           <ul>
-            <li>Centro storico Via Manno </li>
+            <li><a href="http://www.centrostoricoviamanno.it/cagliari/">Centro storico Via Manno</a></li>
             <li>Il Girasole </li>
             <li>Sardinia Domus</li>
             <li>Sa Domu cheta</li>
