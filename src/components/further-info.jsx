@@ -18,12 +18,12 @@ const FurtherInfo = () => (
             <li><a href="http://www.ilgirasole.sardegna.it/">Il Girasole</a></li>
             <li><a href="https://www.sardiniadomus.it/">Sardinia Domus</a></li>
             <li><a href="http://www.sadomucheta.it/">Sa Domu cheta</a></li>
-            <li>Bianca Dimora</li>
-            <li>Cerdena Rooms</li>
-            <li>Villa Cao</li>
-            <li>Elizabeth B&amp;B</li>
-            <li>Regina Elena </li>
-            <li>L’Antica Torre</li>
+            <li><a href="https://www.biancadimora.it/">Bianca Dimora</a></li>
+            <li><a href="http://www.cerdenarooms.it/cagliaribedandbreakfast/en/">Cerdena Rooms</a></li>
+            <li><a href="http://www.villacao.it/?lang=en">Villa Cao</a></li>
+            <li><a href="http://www.elizabethbb.com/">Elizabeth B&amp;B</a></li>
+            <li><a href="http://www.bbreginaelena.it/ing_html/index.htm">Regina Elena</a></li>
+            <li><a href="http://www.anticatorrebb.it/">L’Antica Torre</a></li>
           </ul>
           <h6>Hotels</h6>
           <ul>
