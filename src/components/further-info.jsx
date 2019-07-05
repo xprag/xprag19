@@ -15,9 +15,9 @@ const FurtherInfo = () => (
           <h6>Bed &amp; Breakfast</h6>
           <ul>
             <li><a href="http://www.centrostoricoviamanno.it/cagliari/">Centro storico Via Manno</a></li>
-            <li>Il Girasole </li>
-            <li>Sardinia Domus</li>
-            <li>Sa Domu cheta</li>
+            <li><a href="http://www.ilgirasole.sardegna.it/">Il Girasole</a></li>
+            <li><a href="https://www.sardiniadomus.it/">Sardinia Domus</a></li>
+            <li><a href="http://www.sadomucheta.it/">Sa Domu cheta</a></li>
             <li>Bianca Dimora</li>
             <li>Cerdena Rooms</li>
             <li>Villa Cao</li>
