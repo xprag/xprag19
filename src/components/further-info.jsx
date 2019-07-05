@@ -27,18 +27,19 @@ const FurtherInfo = () => (
           </ul>
           <h6>Hotels</h6>
           <ul>
-            <li>THotel</li>
-            <li>Panorama</li>
-            <li>Sardegna</li>
-            <li>Caesar’s</li>
-            <li>Regina Margherita</li>
-            <li>Hotel Dedoni</li>
-            <li>Quadrifoglio</li>
-            <li>Ulivi &amp; Palme</li>
-            <li>Italia</li>
-            <li>La Terrazza</li>
-            <li>4 Mori</li>
-            <li>Hotel L’Ambasciata</li>
+            <li><a href="https://www.thotel.it/en/home.html">THotel</a></li>
+            <li><a href="https://www.hotelpanorama.it/en/">Panorama</a></li>
+            <li><a href="https://www.sardegnahotelcagliari.it/en/hotel/">Sardegna</a></li>
+            <li><a href="http://www.caesarshotel.it/">Caesar’s</a></li>
+            <li><a href="https://www.hotelreginamargherita.com/en/">Regina Margherita</a></li>
+            <li><a href="http://www.hoteldedoni.it/">Hotel Dedoni</a></li>
+            <li><a href="https://www.hotelquadrifoglio.net/">Quadrifoglio</a></li>
+            <li><a href="http://www.uliviepalme.it/en/">Ulivi &amp; Palme</a></li>
+            <li><a href="https://www.hotelitaliacagliari.com/">Italia</a></li>
+            <li><a href="http://www.laterrazzahotel.com/en/">La Terrazza</a></li>
+            <li><a href="http://www.hotel4mori.it/">4 Mori</a></li>
+            <li><a href="https://l-ambasciata-hotel-de-charme-cagliari.hotelmix.it/">Hotel L’Ambasciata</a></li>
+            <li><a href="https://www.hotel2colonne.it/">Hotel Due Colonne</a></li>
           </ul>
         </div>
         <div className="col-sm">
@@ -56,6 +57,11 @@ const FurtherInfo = () => (
             <li>4 Mori, Via Corte D'Appello 37 </li>
             <li>Milestone Pizzorante, Via Corte D'Appello 33</li>
             <li>Caffè De Candia, Via Mario de Candia 5</li>
+          </p>
+          <h3>Where to swim</h3>
+          <p>
+            Here below you can find a list of café/restaurants located near the
+            conference venue.
           </p>
         </div>
       </div>
