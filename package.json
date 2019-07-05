@@ -5,7 +5,9 @@
     "homepage": ".",
     "dependencies": {
         "bootstrap": "^4.3.1",
+        "jquery": "^3.4.1",
         "js-yaml": "^3.13.1",
+        "popper.js": "^1.15.0",
         "react": "^16.7.0",
         "react-dom": "^16.7.0",
         "react-ga": "^2.6.0",

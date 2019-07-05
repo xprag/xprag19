@@ -6,7 +6,18 @@ const Header = props => {
   return (
     <div>
       <h1 className="text-center">XPRAG.it 2019</h1>
-      <nav className="navbar navbar-expand-md">
+      <nav class="navbar navbar-expand-md navbar-light">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon" />
+        </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
           <ul className="xprag navbar-nav mx-auto">
             <NavItem to="/">HOME</NavItem>
