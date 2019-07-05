@@ -13,33 +13,91 @@ const FurtherInfo = () => (
             Cagliari.
           </p>
           <h6>Bed &amp; Breakfast</h6>
-          <ul>
-            <li><a href="http://www.centrostoricoviamanno.it/cagliari/">Centro storico Via Manno</a></li>
-            <li><a href="http://www.ilgirasole.sardegna.it/">Il Girasole</a></li>
-            <li><a href="https://www.sardiniadomus.it/">Sardinia Domus</a></li>
-            <li><a href="http://www.sadomucheta.it/">Sa Domu cheta</a></li>
-            <li><a href="https://www.biancadimora.it/">Bianca Dimora</a></li>
-            <li><a href="http://www.cerdenarooms.it/cagliaribedandbreakfast/en/">Cerdena Rooms</a></li>
-            <li><a href="http://www.villacao.it/?lang=en">Villa Cao</a></li>
-            <li><a href="http://www.elizabethbb.com/">Elizabeth B&amp;B</a></li>
-            <li><a href="http://www.bbreginaelena.it/ing_html/index.htm">Regina Elena</a></li>
-            <li><a href="http://www.anticatorrebb.it/">L’Antica Torre</a></li>
+          <ul className="text-warning">
+            <li>
+              <a href="http://www.centrostoricoviamanno.it/cagliari/">
+                Centro storico Via Manno
+              </a>
+            </li>
+            <li>
+              <a href="http://www.ilgirasole.sardegna.it/">Il Girasole</a>
+            </li>
+            <li>
+              <a href="https://www.sardiniadomus.it/">Sardinia Domus</a>
+            </li>
+            <li>
+              <a href="http://www.sadomucheta.it/">Sa Domu cheta</a>
+            </li>
+            <li>
+              <a href="https://www.biancadimora.it/">Bianca Dimora</a>
+            </li>
+            <li>
+              <a href="http://www.cerdenarooms.it/cagliaribedandbreakfast/en/">
+                Cerdena Rooms
+              </a>
+            </li>
+            <li>
+              <a href="http://www.villacao.it/?lang=en">Villa Cao</a>
+            </li>
+            <li>
+              <a href="http://www.elizabethbb.com/">Elizabeth B&amp;B</a>
+            </li>
+            <li>
+              <a href="http://www.bbreginaelena.it/ing_html/index.htm">
+                Regina Elena
+              </a>
+            </li>
+            <li>
+              <a href="http://www.anticatorrebb.it/">L’Antica Torre</a>
+            </li>
           </ul>
           <h6>Hotels</h6>
-          <ul>
-            <li><a href="https://www.thotel.it/en/home.html">THotel</a></li>
-            <li><a href="https://www.hotelpanorama.it/en/">Panorama</a></li>
-            <li><a href="https://www.sardegnahotelcagliari.it/en/hotel/">Sardegna</a></li>
-            <li><a href="http://www.caesarshotel.it/">Caesar’s</a></li>
-            <li><a href="https://www.hotelreginamargherita.com/en/">Regina Margherita</a></li>
-            <li><a href="http://www.hoteldedoni.it/">Hotel Dedoni</a></li>
-            <li><a href="https://www.hotelquadrifoglio.net/">Quadrifoglio</a></li>
-            <li><a href="http://www.uliviepalme.it/en/">Ulivi &amp; Palme</a></li>
-            <li><a href="https://www.hotelitaliacagliari.com/">Italia</a></li>
-            <li><a href="http://www.laterrazzahotel.com/en/">La Terrazza</a></li>
-            <li><a href="http://www.hotel4mori.it/">4 Mori</a></li>
-            <li><a href="https://l-ambasciata-hotel-de-charme-cagliari.hotelmix.it/">Hotel L’Ambasciata</a></li>
-            <li><a href="https://www.hotel2colonne.it/">Hotel Due Colonne</a></li>
+          <ul className="text-warning">
+            <li>
+              <a href="https://www.thotel.it/en/home.html">THotel</a>
+            </li>
+            <li>
+              <a href="https://www.hotelpanorama.it/en/">Panorama</a>
+            </li>
+            <li>
+              <a href="https://www.sardegnahotelcagliari.it/en/hotel/">
+                Sardegna
+              </a>
+            </li>
+            <li>
+              <a href="http://www.caesarshotel.it/">Caesar’s</a>
+            </li>
+            <li>
+              <a href="https://www.hotelreginamargherita.com/en/">
+                Regina Margherita
+              </a>
+            </li>
+            <li>
+              <a href="http://www.hoteldedoni.it/">Hotel Dedoni</a>
+            </li>
+            <li>
+              <a href="https://www.hotelquadrifoglio.net/">Quadrifoglio</a>
+            </li>
+            <li>
+              <a href="http://www.uliviepalme.it/en/">Ulivi &amp; Palme</a>
+            </li>
+            <li>
+              <a href="https://www.hotelitaliacagliari.com/">Italia</a>
+            </li>
+            <li>
+              <a href="http://www.laterrazzahotel.com/en/">La Terrazza</a>
+            </li>
+            <li>
+              <a href="http://www.hotel4mori.it/">4 Mori</a>
+            </li>
+            <li>
+              <a href="https://l-ambasciata-hotel-de-charme-cagliari.hotelmix.it/">
+                Hotel L’Ambasciata
+              </a>
+            </li>
+            <li>
+              <a href="https://www.hotel2colonne.it/">Hotel Due Colonne</a>
+            </li>
           </ul>
         </div>
         <div className="col-sm">
@@ -60,9 +118,19 @@ const FurtherInfo = () => (
           </p>
           <h3>Where to swim</h3>
           <p>
-            There are a few beautiful beaches in Cagliari, and some incredible ones in the immediate surroundings.</br>
-            In Cagliari, Poetto (8 km long!), Calamosca and Cala Fighera are easily reached by bus: take the bus PF or PQ to Poetto, 5 or 11 to Calamosca and Cala Fighera (walking from Calamosca). </br>
-            For other beaches in the surroundings, please visit the following website: <a href="https://www.sardegnaturismo.it/en/southern-seas-carribean-waters-and-african-soul">www.sardegnaturismo.it</a>
+            There are a few beautiful beaches in Cagliari, and some incredible
+            ones in the immediate surroundings. <br />
+            In Cagliari, Poetto (8 km long!), Calamosca and Cala Fighera are
+            easily reached by bus: take the bus PF or PQ to Poetto, 5 or 11 to
+            Calamosca and Cala Fighera (walking from Calamosca). <br />
+            For other beaches in the surroundings, please visit the following
+            website:{" "}
+            <a
+              className="text-warning"
+              href="https://www.sardegnaturismo.it/en/southern-seas-carribean-waters-and-african-soul"
+            >
+              www.sardegnaturismo.it
+            </a>
           </p>
         </div>
       </div>
