@@ -60,8 +60,9 @@ const FurtherInfo = () => (
           </p>
           <h3>Where to swim</h3>
           <p>
-            Here below you can find a list of café/restaurants located near the
-            conference venue.
+            There are a few beautiful beaches in Cagliari, and some incredible ones in the immediate surroundings.</br>
+            In Cagliari, Poetto (8 km long!), Calamosca and Cala Fighera are easily reached by bus: take the bus PF or PQ to Poetto, 5 or 11 to Calamosca and Cala Fighera (walking from Calamosca). </br>
+            For other beaches in the surroundings, please visit the following website: <a href="https://www.sardegnaturismo.it/en/southern-seas-carribean-waters-and-african-soul">www.sardegnaturismo.it</a>
           </p>
         </div>
       </div>
