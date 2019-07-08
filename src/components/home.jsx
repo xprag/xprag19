@@ -80,6 +80,7 @@ const Home = () => (
     <p />
     <ul className="list-unstyled">
       <li>Francesca Ervas: ervas at unica.it</li>
+      <li>To download the XPRAG.it 2019 Conference poster, please click on the image on the right.</li>
     </ul>
     <p />
 
