@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6b54729510d14675afacc0c08fd00a26",
+    "revision": "8288a9726fd86a29406d489782c54c7f",
     "url": "./index.html"
   },
   {
-    "revision": "0f9bc764a848b6cee485",
+    "revision": "f4233a8f75d442cd07aa",
     "url": "./static/css/2.619dee99.chunk.css"
   },
   {
-    "revision": "6cee42c477918e62faee",
+    "revision": "a5490fac3c7ec7c37da4",
     "url": "./static/css/main.ed828607.chunk.css"
   },
   {
-    "revision": "0f9bc764a848b6cee485",
-    "url": "./static/js/2.f8fd2fc3.chunk.js"
+    "revision": "f4233a8f75d442cd07aa",
+    "url": "./static/js/2.bee3c2b6.chunk.js"
   },
   {
-    "revision": "6cee42c477918e62faee",
-    "url": "./static/js/main.309e27c4.chunk.js"
+    "revision": "a5490fac3c7ec7c37da4",
+    "url": "./static/js/main.948ba4cc.chunk.js"
   },
   {
     "revision": "8c97409f0ee389fe75da",
@@ -44,7 +44,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/pickering.5a5ccc03.png"
   },
   {
+    "revision": "688a0f8ea01bdc5b278b6477405acf01",
+    "url": "./static/media/poster-xprag-thumbnail.688a0f8e.jpg"
+  },
+  {
+    "revision": "dd726c58feae107d2ac6f6ccc9cfca45",
+    "url": "./static/media/poster-xprag.dd726c58.pdf"
+  },
+  {
     "revision": "fd430f0a39dee208618199f0946154b2",
     "url": "./static/media/universita-cagliari.fd430f0a.jpg"
+  },
+  {
+    "revision": "2251d85c63860dbd8c9f1c4fe7632e07",
+    "url": "./static/media/xprag-beach.2251d85c.jpg"
   }
 ]);
