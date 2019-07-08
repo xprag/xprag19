@@ -6,9 +6,9 @@ const Header = props => {
   return (
     <div>
       <h1 className="text-center">XPRAG.it 2019</h1>
-      <nav class="navbar navbar-expand-md navbar-light">
+      <nav className="navbar navbar-expand-md navbar-light">
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarCollapse"
@@ -16,7 +16,7 @@ const Header = props => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon" />
+          <span className="navbar-toggler-icon" />
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
           <ul className="xprag navbar-nav mx-auto">
