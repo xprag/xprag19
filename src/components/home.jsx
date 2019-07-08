@@ -1,5 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import poster_xprag_thumbnail from "../images/poster-xprag-thumbnail.jpg";
+import poster_xprag from "../images/poster-xprag.pdf";
 
 const Home = () => (
   <main className="container">
@@ -57,31 +59,46 @@ const Home = () => (
         encourage a larger participation, in the spirit of inclusive science.
       </p>
     </h4>
-    <h4>Organising committee</h4>
-    <p />
-    <ul className="list-unstyled">
-      <li>
-        Francesca Ervas (University of Cagliari, Italy &amp; Institut Jean
-        Nicod, ENS, France)
-      </li>
-      <li>Valentina Bambini (IUSS, Pavia, Italy)</li>
-      <li>Filippo Domaneschi (University of Genoa, Italy)</li>
-    </ul>
-    <p />
-    <h4>Local organising committee</h4>
-    <p>
-      Barnali Chaudhary, Roberta Cocco, Francesca Ervas, Roberta Fadda, Rachele
-      Fanari, Elisabetta Gola, Alice Guerrieri, Amitash Ojha, Maria Grazia
-      Rossi, Antonio Ledda, Antonio Pierro, Pietro Salis, Giuseppe Sergioli,
-      Pietro Storari, Daniela Francesca Virdis.
-    </p>
-    <p />
-    <h4>Info</h4>
-    <p />
-    <ul className="list-unstyled">
-      <li>Francesca Ervas: ervas at unica.it</li>
-      <li>To download the XPRAG.it 2019 Conference poster, please click on the image on the right.</li>
-    </ul>
+    <div className="row">
+      <div className="col-12 col-md-8">
+        <h4>Organising committee</h4>
+        <ul className="list-unstyled">
+          <li>
+            Francesca Ervas (University of Cagliari, Italy &amp; Institut Jean
+            Nicod, ENS, France)
+          </li>
+          <li>Valentina Bambini (IUSS, Pavia, Italy)</li>
+          <li>Filippo Domaneschi (University of Genoa, Italy)</li>
+        </ul>
+        <p />
+        <h4>Local organising committee</h4>
+        <p>
+          Barnali Chaudhary, Roberta Cocco, Francesca Ervas, Roberta Fadda,
+          Rachele Fanari, Elisabetta Gola, Alice Guerrieri, Amitash Ojha, Maria
+          Grazia Rossi, Antonio Ledda, Antonio Pierro, Pietro Salis, Giuseppe
+          Sergioli, Pietro Storari, Daniela Francesca Virdis.
+        </p>
+        <p />
+        <h4 className="mt-0">Info</h4>
+        <ul className="list-unstyled">
+          <li>Francesca Ervas: ervas at unica.it</li>
+          <li>
+            To download the XPRAG.it 2019 Conference poster, please click on the
+            image on the right.
+          </li>
+        </ul>
+      </div>
+      <div className="col-6 col-md-4">
+        <a href={poster_xprag}>
+          <img
+            className="align-self-end mr-3"
+            src={poster_xprag_thumbnail}
+            alt="poster xprag thumbnail"
+          />
+        </a>
+      </div>
+    </div>
+
     <p />
 
     <p />

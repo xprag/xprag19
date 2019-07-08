@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "./static/css/main.ed828607.chunk.css",
-    "main.js": "./static/js/main.309e27c4.chunk.js",
-    "main.js.map": "./static/js/main.309e27c4.chunk.js.map",
+    "main.js": "./static/js/main.948ba4cc.chunk.js",
+    "main.js.map": "./static/js/main.948ba4cc.chunk.js.map",
     "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
     "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
     "static/css/2.619dee99.chunk.css": "./static/css/2.619dee99.chunk.css",
-    "static/js/2.f8fd2fc3.chunk.js": "./static/js/2.f8fd2fc3.chunk.js",
-    "static/js/2.f8fd2fc3.chunk.js.map": "./static/js/2.f8fd2fc3.chunk.js.map",
+    "static/js/2.bee3c2b6.chunk.js": "./static/js/2.bee3c2b6.chunk.js",
+    "static/js/2.bee3c2b6.chunk.js.map": "./static/js/2.bee3c2b6.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.76d00ae0a8e5928d5459fa3dde44ff0b.js": "./precache-manifest.76d00ae0a8e5928d5459fa3dde44ff0b.js",
+    "precache-manifest.63b9b5d7c1846c0090d9207d4536f1fc.js": "./precache-manifest.63b9b5d7c1846c0090d9207d4536f1fc.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.619dee99.chunk.css.map": "./static/css/2.619dee99.chunk.css.map",
     "static/css/main.ed828607.chunk.css.map": "./static/css/main.ed828607.chunk.css.map",
@@ -18,6 +18,9 @@
     "static/media/fondazione-sardegna.jpg": "./static/media/fondazione-sardegna.34547df2.jpg",
     "static/media/norbury.png": "./static/media/norbury.073a3bbf.png",
     "static/media/pickering.png": "./static/media/pickering.5a5ccc03.png",
-    "static/media/universita-cagliari.jpg": "./static/media/universita-cagliari.fd430f0a.jpg"
+    "static/media/poster-xprag-thumbnail.jpg": "./static/media/poster-xprag-thumbnail.688a0f8e.jpg",
+    "static/media/poster-xprag.pdf": "./static/media/poster-xprag.dd726c58.pdf",
+    "static/media/universita-cagliari.jpg": "./static/media/universita-cagliari.fd430f0a.jpg",
+    "static/media/xprag-beach.jpg": "./static/media/xprag-beach.2251d85c.jpg"
   }
 }

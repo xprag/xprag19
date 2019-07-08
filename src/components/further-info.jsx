@@ -1,4 +1,5 @@
 import React from "react";
+import xprag_beach from "../images/xprag-beach.jpg";
 
 const FurtherInfo = () => (
   <main className="container">
@@ -132,6 +133,7 @@ const FurtherInfo = () => (
               www.sardegnaturismo.it
             </a>
           </p>
+          <img src={xprag_beach} alt="" />
         </div>
       </div>
     </div>
