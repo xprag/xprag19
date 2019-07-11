@@ -51,6 +51,9 @@ const FurtherInfo = () => (
             <li>
               <a href="http://www.anticatorrebb.it/">L’Antica Torre</a>
             </li>
+            <li>
+              <a href="http://www.locandadeibuoniecattivi.it/">Locanda dei buoni e dei cattivi</a>
+            </li>
           </ul>
           <h6>Hotels</h6>
           <ul className="text-warning">
