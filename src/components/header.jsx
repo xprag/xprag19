@@ -26,8 +26,9 @@ const Header = props => {
             <NavItem to="/program">PROGRAM</NavItem>
             <NavItem to="/award">AWARD</NavItem>
             <NavItem to="/venue">VENUE</NavItem>
-            <NavItem to="/further-info">FURTHER INFO</NavItem>
             <NavItem to="/gender-policy">GENDER POLICY</NavItem>
+            <NavItem to="/abstracts">ABSTRACTS</NavItem>
+            <NavItem to="/further-info">FURTHER INFO</NavItem>
           </ul>
         </div>
       </nav>
