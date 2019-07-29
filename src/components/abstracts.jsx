@@ -12,8 +12,11 @@ const Abstracts = () => (
     </p>
     <p>
       The OSF meeting repository will be published at the following address:
-      forthcoming Organization of Book of Abstracts and OSF meeting repository:
-      Luca Bischetti, Elisabetta Tonini (IUSS Pavia)
+      forthcoming
+    </p>
+    <p>
+      Organization of Book of Abstracts and OSF meeting repository: Luca
+      Bischetti, Elisabetta Tonini (IUSS Pavia)
     </p>
   </main>
 );

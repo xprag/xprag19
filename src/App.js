@@ -12,6 +12,7 @@ import Venue from "./components/venue";
 import Error from "./components/error";
 import Footer from "./components/footer";
 import FurtherInfo from "./components/further-info";
+import Abstracts from "./components/abstracts";
 import ReactGA from "react-ga";
 import createHistory from "history/createBrowserHistory";
 
@@ -37,6 +38,7 @@ class App extends Component {
             <Route path="/program" component={Program} />
             <Route path="/venue" component={Venue} />
             <Route path="/further-info" component={FurtherInfo} />
+            <Route path="/abstracts" component={Abstracts} />
             <Route component={Error} />
           </Switch>
           <Footer />
