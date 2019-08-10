@@ -13,10 +13,7 @@ class Speaker extends Component {
         <div className="media-body">
           <h5 className="mt-0 mb-0">{name}</h5>
           <h6 className="mb-0">{from}</h6>
-          <a
-            className="text-warning"
-            href="https://en.wikipedia.org/wiki/Raymond_W._Gibbs_Jr."
-          >
+          <a className="text-warning" href={ref}>
             {ref}
           </a>
           <h6 className="mt-1">
