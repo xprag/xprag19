@@ -8,6 +8,17 @@ const FurtherInfo = () => (
     <div className="container">
       <div className="row">
         <div className="col-sm">
+          <h3>Where to register</h3>
+          <p>
+            Link to the registration form:&nbsp;
+            <br />
+            <a
+              className="text-warning"
+              href="https://forms.gle/jxiNHB6iLGdUMDtV8"
+            >
+              https://forms.gle/jxiNHB6iLGdUMDtV8
+            </a>
+          </p>
           <h3>Where to sleep</h3>
           <p>
             Here below you can find a list of B&amp;B and hotels located in
@@ -52,7 +63,9 @@ const FurtherInfo = () => (
               <a href="http://www.anticatorrebb.it/">L’Antica Torre</a>
             </li>
             <li>
-              <a href="http://www.locandadeibuoniecattivi.it/">Locanda dei buoni e dei cattivi</a>
+              <a href="http://www.locandadeibuoniecattivi.it/">
+                Locanda dei buoni e dei cattivi
+              </a>
             </li>
           </ul>
           <h6>Hotels</h6>
