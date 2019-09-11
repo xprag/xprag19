@@ -13,7 +13,9 @@ const Venue = () => (
     <p>
       The Citadel of Museums is the greatest art, history and culture complex in
       the whole of Sardinia. It is placed in the old centre of Cagliari, in
-      Piazza Arsenale, 1.
+      Piazza Arsenale, 1. The elevators placed near Piazza Yenne (behind Santa
+      Chiara Church), at Bastione Saint Remy and at Terrapieno in viale Regina
+      Elena bring to the old centre of Cagliari ("Castello").
     </p>
     <p>
       Further info at:&nbsp;
