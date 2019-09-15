@@ -132,6 +132,8 @@ const FurtherInfo = () => (
             <li>4 Mori, Via Corte D'Appello 37 </li>
             <li>Milestone Pizzorante, Via Corte D'Appello 33</li>
             <li>Caffè De Candia, Via Mario de Candia 5</li>
+            <li>Caffé degli Spiriti, Bastione San Remy</li>
+            <li>Caffé delle arti, Via del Fossario 1</li>
           </p>
           <h3>Where to swim</h3>
           <p>

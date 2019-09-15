@@ -5,7 +5,7 @@ const Program = () => (
     <h2 className="mb-4">Program</h2>
     <iframe
       title="xprag program"
-      src="https://drive.google.com/file/d/15ZsP0NcF8nskwzfopwjtc-20-lvF2wtV/preview"
+      src="https://drive.google.com/file/d/0B9l6mJ_AvBTkeWdubkhQbG4xUlNuYlFXVzFYMzR4MkpFS2N3/preview"
       width="100%"
       height="480"
     />
