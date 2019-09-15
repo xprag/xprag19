@@ -11,8 +11,11 @@ const Abstracts = () => (
       </a>
     </p>
     <p>
-      The OSF meeting repository will be published at the following address:
-      forthcoming
+      The OSF meeting repository will be published at the following
+      address:&nbsp;
+      <a className="text-warning" href="https://osf.io/meetings/XPRAGit2019/">
+        https://osf.io/meetings/XPRAGit2019/
+      </a>
     </p>
     <p>
       Organization of Book of Abstracts and OSF meeting repository: Luca

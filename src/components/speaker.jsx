@@ -6,7 +6,7 @@ class Speaker extends Component {
     this.state = { name: this.props.value };
   }
   render() {
-    const { name, from, img, ref, talk } = this.props.value;
+    const { name, from, img, ref, talk, gender } = this.props.value;
     return (
       <li className="media">
         <img className="mr-3 rounded" alt="Generic placeholder" src={img} />
@@ -17,7 +17,7 @@ class Speaker extends Component {
             {ref}
           </a>
           <h6 className="mt-1">
-            Title of his talk: <br />
+            Title of {gender} talk: <br />
             <em>{talk}</em>
           </h6>
         </div>

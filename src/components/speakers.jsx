@@ -13,6 +13,7 @@ class Speakers extends Component {
         {
           id: 1,
           name: "Raymond Gibbs",
+          gender: "his",
           from:
             "Cognitive Scientist and former Distinguished Professor of Psychology, University of California, Santa Cruz",
           img: gibbs,
@@ -23,6 +24,7 @@ class Speakers extends Component {
         {
           id: 2,
           name: "Courtenay Norbury",
+          gender: "her",
           from: "University College London",
           img: norbury,
           ref: "https://www.ucl.ac.uk/pals/people/courtenay-norbury",
@@ -32,6 +34,7 @@ class Speakers extends Component {
         {
           id: 3,
           name: "Martin Pickering",
+          gender: "his",
           from: "University of Edinburgh",
           img: pickering,
           ref: "https://www.ed.ac.uk/profile/martin-pickering",
@@ -40,6 +43,7 @@ class Speakers extends Component {
         {
           id: 4,
           name: "Deirdre Wilson",
+          gender: "her",
           from: "University College London & CSMN, Oslo",
           img: wilson,
           ref: "https://www.researchgate.net/profile/Deirdre_Wilson",
