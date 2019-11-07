@@ -20,15 +20,15 @@ const Header = props => {
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
           <ul className="xprag navbar-nav mx-auto">
-            <NavItem to="/">HOME</NavItem>
-            <NavItem to="/invited-speakers">INVITED SPEAKERS</NavItem>
-            <NavItem to="/call-for-papers">CALL FOR PAPERS</NavItem>
-            <NavItem to="/program">PROGRAM</NavItem>
-            <NavItem to="/award">AWARD</NavItem>
-            <NavItem to="/venue">VENUE</NavItem>
-            <NavItem to="/gender-policy">GENDER POLICY</NavItem>
-            <NavItem to="/abstracts">ABSTRACTS</NavItem>
-            <NavItem to="/further-info">FURTHER INFO</NavItem>
+            <NavItem to="./">HOME</NavItem>
+            <NavItem to="./invited-speakers">INVITED SPEAKERS</NavItem>
+            <NavItem to="./call-for-papers">CALL FOR PAPERS</NavItem>
+            <NavItem to="./program">PROGRAM</NavItem>
+            <NavItem to="./award">AWARD</NavItem>
+            <NavItem to="./venue">VENUE</NavItem>
+            <NavItem to="./gender-policy">GENDER POLICY</NavItem>
+            <NavItem to="./abstracts">ABSTRACTS</NavItem>
+            <NavItem to="./further-info">FURTHER INFO</NavItem>
           </ul>
         </div>
       </nav>
